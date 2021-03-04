@@ -1,0 +1,25 @@
+{
+    "name": "dwa/dwa_empty",
+    "description": "Dummy-Modul",
+    "type": "oxideshop-module",
+    "keywords": ["oxid", "modules", "eShop"],
+    "homepage": "https://www.web-grips.de",
+    "version": "1.0.0",
+    "license": [
+        "proprietary"
+    ],
+    "extra": {
+        "oxideshop": {
+            "target-directory": "dwa/dwa_empty",
+            "source-directory": "modules/dwa/dwa_empty"
+        }
+    },
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dwa\\Dwa_dummy\\": "../../../source/modules/dwa/dwa_empty"
+        }
+    }
+}
